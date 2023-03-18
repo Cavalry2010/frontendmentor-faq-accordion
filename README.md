@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-faq-accordion-component-using-flexbox-css-grid-and-js-YT3aAIFP5O)
 - Live Site URL: [FAQ Accordion card](https://faq-accordion-alejandro.netlify.com)
 
 ## My process
