@@ -1,0 +1,54 @@
+@media (max-width: 26em) {
+  .container {
+    margin: 9.6rem auto;
+    overflow: visible;
+  }
+
+  .faq-box {
+    grid-template-columns: 1fr;
+    max-width: 33rem;
+    height: auto;
+    text-align: center;
+  }
+
+  .illustration-box {
+    background-image: url("../images/bg-pattern-mobile.svg");
+    background-size: 70%;
+    background-position: center top;
+    margin-bottom: -27rem;
+    max-height: 10rem;
+  }
+
+  .illustration {
+    background-image: url("../images/illustration-woman-online-mobile.svg");
+    background-size: 70%;
+    background-position: center top;
+    transform: translateY(-31.5%);
+  }
+
+  .illustration-cube {
+    display: none;
+  }
+
+  .faq-heading {
+    font-size: 3.2rem;
+    margin-top: 6.4rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .faq-accordion {
+    margin: 0;
+    padding: 0 2.6rem;
+    margin-bottom: 4.8rem;
+    text-align: left;
+  }
+
+  .item-title {
+    font-size: 1.3rem;
+  }
+
+  .item-text {
+    padding-right: 1.6rem;
+    line-height: 1.5;
+  }
+}
