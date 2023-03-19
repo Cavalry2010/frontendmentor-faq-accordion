@@ -7,5 +7,13 @@ accordionList.addEventListener("click", function (e) {
     ? e.target.parentElement
     : e.target;
   if (click.tagName !== "DIV") return;
-  click.classList.toggle("open");
+  if (click.classList.contains("open")) {
+    click.classList.toggle("open");
+  } else {
+    const accordion = Array.from(accordionList.children);
+    accordion.forEach((item) => {
+      item.classList.remove("open");
+    });
+    click.classList.toggle("open");
+  }
 });
